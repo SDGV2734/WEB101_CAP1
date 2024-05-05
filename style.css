@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.back-btn {
+    width: 24px;
+}
+
+.name-wrap {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.name {
+    margin: 0;
+}
+
+.pokemon-id-wrap {
+    text-align: right;
+}
+
+.featured-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.detail-img-wrapper img {
+    max-width: 200px;
+}
+
+.arrow {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.detail-card-detail-wrapper {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.power-wrapper {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.type {
+    padding: 6px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.about-text {
+    margin-top: 0;
+}
+
+.pokemon-detail-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.pokemon-detail {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pokemon-detail img {
+    width: 24px;
+}
+
+.body2-fonts-weight,
+.body2-fonts-height {
+    margin: 0;
+}
+
+.pokemon-description {
+    margin-bottom: 20px;
+}
+
+.stats-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+}
+
+.stats-wrap {
+    text-align: center;
+}
+
+.stats {
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+    appearance: none;
+}
+
+.progress-bar::-webkit-progress-bar {
+    background: #ddd;
+}
+
+.progress-bar::-webkit-progress-value {
+    background: #007bff;
+    border-radius: 5px;
+}

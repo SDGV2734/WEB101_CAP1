@@ -104,3 +104,13 @@ function clearSearch() {
     DisplayPokemons(allPokemons);
     notFoundMessage.style.display = "none";
 }
+
+
+
+window.addEventListener("mousemove", cursor);
+
+function cursor(e) { 
+    const cursor = document.querySelector(".cursor");
+    cursor.style.top = e.pageY + "px";
+    cursor.style.left = e.pageX + "px";
+}
