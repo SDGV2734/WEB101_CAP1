@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
             DisplayPokemons(allPokemons);
         });
 
-    const searchInput = document.querySelector("#searchInput"); // Changed ID to match HTML
+    const searchInput = document.querySelector("#searchInput"); // 
     if (searchInput) {
         searchInput.addEventListener("keyup", handleSearch);
     } else {
@@ -65,7 +65,7 @@ function DisplayPokemons(pokemon) {
 }
 
 function handleSearch() {
-    const searchInput = document.querySelector("#searchInput"); // Changed ID to match HTML
+    const searchInput = document.querySelector("#searchInput"); // 
     const searchTerm = searchInput.value.toLowerCase();
     let filteredPokemons;
 
